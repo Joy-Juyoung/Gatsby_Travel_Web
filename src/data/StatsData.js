@@ -2,14 +2,15 @@ import React from "react"
 import { GiEarthAmerica } from "react-icons/gi"
 import { MdAirplanemodeActive, MdTimer } from "react-icons/md"
 import { FaMoneyCheck } from "react-icons/fa"
+// import styled from "styled-components"
 
 export const StatsData = [
   {
     icon: (
       <GiEarthAmerica
-        css={`
-          color: #047bf1;
-        `}
+      // css={`
+      //   color: #047bf1;
+      // `}
       />
     ),
     title: "Over 100 Destinations",
@@ -18,9 +19,9 @@ export const StatsData = [
   {
     icon: (
       <MdAirplanemodeActive
-        css={`
-          color: #f3a82e;
-        `}
+      // css={`
+      //   color: #f3a82e;
+      // `}
       />
     ),
     title: "1 Million Tip Made",
@@ -29,9 +30,9 @@ export const StatsData = [
   {
     icon: (
       <MdTimer
-        css={`
-          color: #f34f2e;
-        `}
+      // css={`
+      //   color: #f34f2e;
+      // `}
       />
     ),
     title: "Fastest Support",
@@ -40,9 +41,9 @@ export const StatsData = [
   {
     icon: (
       <FaMoneyCheck
-        css={`
-          color: #3af576;
-        `}
+      // css={`
+      //   color: #3af576;
+      // `}
       />
     ),
     title: "Best Deals",
